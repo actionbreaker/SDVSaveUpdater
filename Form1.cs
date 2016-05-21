@@ -50,7 +50,6 @@ namespace SDVSaveUpdater2
         {
             try
             {
-
                 // Bouton en cours
                 buttonReplace.Enabled = false;
                 buttonReplace.BackColor = Color.White;
@@ -114,8 +113,6 @@ namespace SDVSaveUpdater2
                     buttonReplace.Text = "Vous pouvez jouer !";
                     break;
             }
-
-            
         }
     }
 }
