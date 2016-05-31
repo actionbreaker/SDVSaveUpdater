@@ -34,9 +34,9 @@
             this.labelAnalyse = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
+            //
             // buttonReplace
-            // 
+            //
             this.buttonReplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonReplace.FlatAppearance.BorderSize = 0;
             this.buttonReplace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -49,19 +49,19 @@
             this.buttonReplace.Text = "Corriger";
             this.buttonReplace.UseVisualStyleBackColor = false;
             this.buttonReplace.Click += new System.EventHandler(this.buttonReplace_Click);
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 11F);
             this.label1.Location = new System.Drawing.Point(59, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(242, 23);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Rendez vos saves compatibles";
-            // 
+            this.label1.Text = "Select your save (para v1.4.5)";
+            //
             // comboBox1
-            // 
+            //
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(120, 51);
@@ -69,9 +69,9 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 19;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
+            //
             // labelAnalyse
-            // 
+            //
             this.labelAnalyse.Font = new System.Drawing.Font("Calibri", 11F);
             this.labelAnalyse.Location = new System.Drawing.Point(2, 92);
             this.labelAnalyse.Name = "labelAnalyse";
@@ -79,17 +79,17 @@
             this.labelAnalyse.TabIndex = 20;
             this.labelAnalyse.Text = "...";
             this.labelAnalyse.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 11F);
             this.label2.Location = new System.Drawing.Point(105, 232);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(151, 23);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Par la team SDVFR";
-            // 
+            this.label2.Text = "SDVFR Team";
+            //
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -117,4 +117,3 @@
         private System.Windows.Forms.Label label2;
     }
 }
-
